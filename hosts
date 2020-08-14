@@ -1,0 +1,5 @@
+[amazon]
+10.10.52.202 ansible_ssh_user=ec2-user
+
+[ubuntu]
+10.10.48.52 ansible_ssh_user=dev

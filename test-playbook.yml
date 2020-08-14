@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: Write file
+      template:
+        src: ./test.j2
+        dest: /etc/test.txt
+        mode: "0644"
