@@ -1,7 +1,7 @@
 ---
 - hosts: all
   vars:
-    message: Hello From Vars
+    message: Hello From Vars CHANGED
   become: yes
   tasks:
     - name: Write file
