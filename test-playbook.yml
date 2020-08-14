@@ -10,3 +10,8 @@
         src: ./test.j2
         dest: /etc/test.txt
         mode: "0644"
+    - name: Write file Again
+      template:
+        src: ./test.j2
+        dest: /etc/test-2.txt
+        mode: "0644"
