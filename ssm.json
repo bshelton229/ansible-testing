@@ -1,0 +1,5 @@
+{
+  "owner": "bshelton229",
+  "repository": "ansible-testing",
+  "getOptions": "branch:master"
+}
